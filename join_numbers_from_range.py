@@ -1,4 +1,4 @@
-def join_numbers_from_range(first_num, last_num=5):
+def join_numbers_from_range(first_num, last_num):
 	index = first_num
 	string_of_nums = ''
 	while index <= last_num:
