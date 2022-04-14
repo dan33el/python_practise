@@ -1,15 +1,3 @@
-''' def encrypt(t):
-	twisted_text = ''
-	i = 0
-	if len(t) % 2 == 0:
-		while t.index(t[i]) <= t.index(t[-2]):
-			twisted_text = twisted_text + t[i]
-			i += i+1
-			t = t.replace(t[i],t[i+1])
-	print(t)
-	print(len(t))
-'''
-
 def encrypt(text):
     i = 0
     result = ""
